@@ -1,4 +1,7 @@
 <?php include('company.php') ?>
+<style>
+<?php include('CSS/styles.css') ?>
+</style>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
     <a class="navbar-brand" href="#"><?php echo $companyname ?></a>
@@ -38,13 +41,23 @@
 </nav>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-
+<div class = "contaner">
 <div class="jumbotron m-3">
-  <h1 class="display-4">Welcome to  <?php echo $companyname ?></h1>
+  <h2 class="display-4">Welcome to  <?php echo $companyname ?></h2>
   <p class="lead">For over a hundred years Big Guitar Co has been crafting quality guitars.</p>
   <hr class="my-4">
   <p>Using only the finest materials the world has to offer....we know you will be very satisfied with our Guitars.</p>
   <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
 </div>
+<div class="card cardAlign" style="width: 18rem;">
+    <img src="images/mateusz.jpg" class="card-img-top" alt="House">
+    <div class="card-body">
+        <h5 class="card-title">Home on the range</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+</div>
+</div>
+    <div class="square"></div>
 
 

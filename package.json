@@ -1,0 +1,19 @@
+{
+  "name": "php-codemy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jerripat/PHP-Codemy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jerripat/PHP-Codemy/issues"
+  },
+  "homepage": "https://github.com/jerripat/PHP-Codemy#readme"
+}
